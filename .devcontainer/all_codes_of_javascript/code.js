@@ -430,6 +430,61 @@ const {coursename : name1} = course;
 console.log(name1);
 
 
+// -------9------
+// function and paramaetres
+
+function saymyname(){
+    console.log("d");
+    console.log("i");
+}
+
+saymyname();
+
+function addtwonum(num1,num2){
+    console.log(num1+num2);
+}
+
+addtwonum(3,4);
+function addtwonum2(num1,num2){
+    return (num1+num2);
+}
+const res = addtwonum2(3,6);
+console.log(res);
+
+function loginuser(username){
+
+    return `${username} just loggedin` ;
+
+}
+console.log(loginuser(89));
+// default set krna hia to 
+function loginuser2(username="sam"){
+
+    return `${username} just loggedin` ;
+
+}
+console.log(loginuser2());
+
+// functions with objects
+
+function calculate(...num1){
+    return num1;
+}
+
+console.log(calculate(900,88,789,98));
+
+const user2={
+    username:"divu",
+    price :90,
+}
+
+function handle(anyobject){
+        console.log(`username is ${anyobject.username} and price id ${anyobject.price}`);
+}
+
+handle(user2);
+
+// --------10--------
 
 
 
