@@ -351,6 +351,85 @@ const regularUser ={
 console.log(regularUser.fullname.userfullname.first);
 
 // ---------8-------------
+const tinderuser = {};
+tinderuser.id = "123rgf";
+tinderuser.name = "divu";
+tinderuser.islog= true;
+
+console.log(tinderuser);
+
+// objects me objects
+
+const regularUser = {
+
+    email : " divu@hiuhf.com",
+
+    fullName:{
+        usermname:{
+                firstname: "divu",
+                lastname : "sharma",
+        }
+    }
+
+}
+console.log(regularUser.fullName.usermname.firstname);
+
+const obj1 = {1 :"a" , 2:"b"};
+const obj2 = {2 :"a" , 3:"b"};
+const obj3 = {6 :"a" , 5:"b"};
+
+const obj6 = {obj1,obj2};
+console.log(obj6);
+
+const obj4 = Object.assign({},obj1,obj2,obj3);
+console.log(obj4);
+const obj5 = {...obj1,...obj2};
+console.log(obj5);
+
+const user =[
+
+    {
+        id : 1,
+        email :"divu@giaj.com",
+
+    },
+    {
+        id : 2,
+        email :"di343@giaj.com",
+
+    },
+    {
+        id : 3,
+        email :"r3r3vu@giaj.com",
+
+    },
+    {
+        id : 4,
+        email :"gfdivu@giaj.com",
+
+    },
+
+    ]
+
+    console.log(user[1].email);
+    console.log(tinderuser);
+    console.log(Object.keys(tinderuser));
+    console.log(Object.values(tinderuser));
+
+// objects video further
+
+const course = {
+
+    coursename :"js learn",
+    price :"098",
+    courseid :"78",
+}
+// destructure objects 
+const {coursename : name1} = course;
+// console.log(coursename);
+console.log(name1);
+
+
 
 
 
