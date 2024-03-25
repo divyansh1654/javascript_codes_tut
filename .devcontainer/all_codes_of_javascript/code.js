@@ -486,6 +486,71 @@ handle(user2);
 
 // --------10--------
 
+// // const coding = ["js","ruby","java","cpp"];
 
+// // const values = coding.forEach((items)=>{
+// //     console.log(items);
+// // })
+
+// const mynums =[1,2,3,4,5,6,7,8,9];
+
+// // const newnums = mynums.filter( (num)=>num>4 );
+// // console.log(newnums);
+
+// const newnums =[];
+// mynums.forEach( (num)=>{
+//     if(num>4){
+//         newnums.push(num);
+//     }
+// } )
+// console.log(newnums);
+
+
+// const userbooks = [
+
+//     {
+//         username :"divu",
+//         title : "maths",
+//         age : 19,
+//     },
+//     {
+//         username :"anusha",
+//         title : "eng",
+//         age : 78,
+//     },
+//     {
+//         username :"ansu",
+//         title : "sst",
+//         age : 69,
+//     },
+//     {
+//         username :"anus",
+//         title : "hindi",
+//         age : 18,
+//     },
+// ];
+
+// const a1 = userbooks.filter((items)=>{
+//         return items;
+// })
+// console.log(a1);
+// const a2 = userbooks.filter((items)=>{
+//     return items.age>70;
+// })
+// console.log(a2);
+
+// const mynums = [1,2,3,4,5,6,7,7,8,9];
+
+// const newnums = mynums.map( (nums)=> nums+10 );
+// console.log(newnums);
+
+// reduce maps js
+
+// const mynums = [1,2,3];
+// const mytotal = mynums.reduce(function (acc , curval){
+//     console.log(`acc : ${acc} curval : ${curval}`);
+//     return acc + curval;
+// },0)
+// console.log(mytotal); 
 
 
